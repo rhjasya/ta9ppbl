@@ -1,0 +1,24 @@
+name: pelaporan_fasilitas_kota
+description: Aplikasi Pelaporan Fasilitas Kota - Tugas Akhir Modul 9 (Hive, SharedPreferences, Cubit).
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  shared_preferences: ^2.3.0
+  flutter_bloc: ^8.1.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  hive_generator: any
+  build_runner: any
+
+flutter:
+  uses-material-design: true
